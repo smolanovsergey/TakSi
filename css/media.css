@@ -1,0 +1,419 @@
+@media all and (max-width: 1370px) and (min-width: 1250px){
+	.container li a{
+		font-size: 16px;
+	}
+	.logo_nav img {
+    height: 150px;
+    width: 150px;
+    margin-left: -75px;
+	}
+	.mobile_menu_button{
+		display: none;
+	}
+	.cencel_mobile_menu_button img{
+		display: none;
+	}
+}
+@media all and (max-width: 1249px) and (min-width: 1000px){
+	.container li a{
+		font-size: 16px;
+	}
+	h5{
+		font-size: 18px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	.content_for_partners h6{
+		font-size: 20px;
+	}
+	form {
+	    margin-bottom: 50px;
+	    height: auto;
+	    width: 350px;
+	}
+	form p {
+    	width: 350px;
+	}
+	fieldset{
+		width: 350px;
+	}
+	header form{
+		width: 350px;
+	}
+	.logo_nav img {
+	    height: 100px;
+	    width: 100px;
+	    margin-left: -50px;
+	}
+	.container li{
+		padding: 0;
+	}
+	.content_for_requirement h6{
+		font-size: 20px;
+	}
+	#registering form {
+	    width: 95%;
+	    margin: auto;
+	}
+	#registering form fieldset {
+	    width: 95%;
+	    margin: auto;
+	}
+	#registering form p {
+    	width: 100%;
+	}
+	.mobile_menu_button{
+		display: none;
+	}
+	.cencel_mobile_menu_button img{
+		display: none;
+	}
+}
+
+@media all and (max-width: 999px) and (min-width: 767px){
+	.container li a{
+		font-size: 16px;
+	}
+	h5{
+		font-size: 18px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	.content_for_partners h6{
+		font-size: 20px;
+	}
+	form {
+	    margin-bottom: 50px;
+	    height: auto;
+	    width: 350px;
+	}
+	form p {
+    	width: 350px;
+	}
+	fieldset{
+		width: 350px;
+	}
+	header form{
+		width: 350px;
+	}
+	#menu{
+		position: relative;
+	}
+	.logo_nav img {
+	    height: 100px;
+	    width: 100px;
+	    margin-left: -50px;
+	}
+	.container li {
+	    padding: 0;
+	    width: 33.3%;
+	    text-align: center;
+	}
+	.content_for_requirement h6{
+		font-size: 20px;
+	}
+	#registering form {
+	    width: 95%;
+	    margin: auto;
+	}
+	#registering form fieldset {
+	    width: 95%;
+	    margin: auto;
+	}
+	#registering form p {
+    	width: 100%;
+	}
+	.mobile_menu_button img{
+		display: none;
+	}
+	.logo_nav{
+		position: absolute;
+		top: 10px;
+		left: 20px;
+	}
+	.logo_nav img {
+	    height: 100px;
+	    width: 100px;
+	    margin-left: 0px;
+	}
+	.logo_nav {
+	    position: absolute;
+	    top: 120px;
+	    left: 60px;
+	}
+	.container>span {
+	    display: flex;
+	    color: white;
+	    justify-content: space-between;
+	    margin: auto;
+	    flex-direction: column;
+	}
+	.container li a {
+	    list-style: none;
+	    margin: 0px;
+	    padding: 0px 20px;
+	    font-size: 20px;
+	    line-height: 54px;
+	    cursor: pointer;
+	    transition: 0.5s;
+	    display: block;
+	}
+	.left_nav, .right_nav {
+	    display: flex;
+	    padding: 0px;
+	    margin: 0px;
+	    justify-content: space-between;
+	}
+	.cencel_mobile_menu_button img{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+@media all and (max-width: 766px) and (min-width: 300px){
+	.container li a{
+		font-size: 16px;
+	}
+	h5 {
+	    font-size: 18px;
+	    margin: 10px auto;
+	}
+	h1{
+		font-size: 50px;
+	}
+	.content_for_partners h6{
+		font-size: 20px;
+	}
+	form {
+	    margin-bottom: 50px;
+	    height: auto;
+	    width: 350px;
+	}
+	form p {
+    	width: 350px;
+	}
+	fieldset{
+		width: 350px;
+	}
+	header form{
+		width: 350px;
+	}
+	#menu{
+		position: relative;
+	}
+	.logo_nav img {
+	    height: 100px;
+	    width: 100px;
+	    margin-left: -50px;
+	}
+	.container li {
+	    padding: 0;
+	    border-bottom: 2px solid;
+	    padding: 18px 0;
+	}
+	.content_for_requirement h6{
+		font-size: 20px;
+	}
+	#registering form {
+	    width: 95%;
+	    margin: auto;
+	}
+	#registering form fieldset {
+	    width: 95%;
+	    margin: auto;
+	}
+	#registering form p {
+    	width: 100%;
+	}
+	.mobile_menu_button img {
+	    width: 70px;
+	    height: 70px;
+	    position: absolute;
+	    top: 10px;
+	    right: 20px;
+	}
+	.cencel_mobile_menu_button img {
+	    width: 70px;
+	    height: 70px;
+	    position: absolute;
+	    top: 10px;
+	    right: 20px;
+	    display: none;
+	    z-index: 100;
+	}
+	.logo_nav{
+		position: absolute;
+		top: 10px;
+		left: 20px;
+	}
+	.logo_nav img {
+	    height: 70px;
+	    width: 70px;
+	    margin-left: 0px;
+	}
+	.logo_nav {
+	    position: absolute;
+	    top: 10px;
+	    left: 20px;
+	}
+	.mobile_menu_button {
+    	display: block;
+	}
+	.container>span {
+	    display: none;
+	    color: white;
+	    justify-content: space-between;
+	    margin-left: auto;
+	    flex-direction: column;
+	    text-align: right;
+	    background: rgba(236, 216, 233, 0.8);
+	    width: 66%;
+	    /* margin: 0px; */
+	    position: absolute;
+	    right: 0;
+	    top: 90px;
+	    margin-top: -90px;
+	}
+	.left_nav, .right_nav {
+	    display: flex;
+	    padding: 0px;
+	    margin: 0px;
+	    flex-direction: column;
+	}
+	.container li a {
+	    list-style: none;
+	    margin: 0px;
+	    padding: 0px 20px;
+	    font-size: 30px;
+	    line-height: 40px;
+	    cursor: pointer;
+	    transition: 0.5s;
+	    display: block;
+	    color: black;
+
+	}
+	.content_for_partners {
+	    display: flex;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	    justify-content: space-between;
+	}
+	.container-image {
+    	max-width: 95%;
+	}
+	.content_for_partners h6 {
+	    font-family: Arial;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 18px;
+	    line-height: 33px;
+	    text-align: justify;
+	    color: black;
+	    max-width: 95%;
+	    margin: 10px;
+	}
+	h1 {
+	    font-size: 30px;
+	    margin: 10px;
+	}
+	.cars_all {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	}
+	.cars_all img {
+	    min-width: 30%;
+	    margin: 10px;
+	    width: 95%;
+	    margin: 10px auto;
+	}
+	.content_for_requirement h6{
+		font-family: Arial;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 18px;
+	    line-height: 33px;
+	    text-align: justify;
+	    color: black;
+	    max-width: 95%;
+	    margin: 10px;
+	}
+	.content_for_requirement {
+	    display: flex;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	    justify-content: space-between;
+	}
+	header form {
+	    width: 350px;
+	    display: none;
+	}
+	.container{
+		width: 100%;
+		max-width: 100%;
+	} 
+	.images_section_about {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	}
+	.images_section_about img {
+	    max-width: 95%;
+	    margin: 10px auto;
+	}
+	#about, .avtopark, #for_partners, #requirement{
+		padding-bottom: 0px;
+	}
+	header {
+	    background-image: url(../img/header_bg.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    position: relative;
+	    overflow: hidden;
+	    height: 100vh;
+	}
+	#registering form{
+		width: 100%;
+	}
+	#registering form p {
+   	 	width: 90%;
+   	 	margin: 10px auto;
+	}
+	.fieldset{
+		min-inline-size: 100%;
+	}
+	.button_up {
+	    position: fixed;
+	    width: 80px;
+	    height: 80px;
+	    right: 40px;
+	    bottom: 40px;
+	    -webkit-box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.75);
+	    box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.75);
+	    border-radius: 50%;
+	}
+	nav {
+	    background-color: rgba(0, 0, 0, 0.5);
+	    width: 100%;
+	    height: 90px;
+	    position: relative;
+	}
+	.container>span::before{
+		content: "";
+		width: 100%;
+		height: 90px;
+  		display: block;
+  		background-color: #800080;
+	}
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tak.Si</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicone.ico" type="image/icon">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">	
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<div id="upp_page"></div>
+	<header>
+		<nav>
+			<div id="menu" class="container">
+				<div class="mobile_menu_button">
+					<img src="img/menu_button.svg">
+				</div>
+				<div class="cencel_mobile_menu_button">
+					<img src="img/cencel_menu_button.svg">
+				</div>
+				<span>
+					<ul id="left_nav" class="left_nav">
+						<li><a href="#about">Про компанію</a></li>
+						<li><a href="#price">Ціни</a></li>
+						<li><a href="#avtopark">Автомобілі</a></li>
+					</ul>
+					<ul id="light_nav" class="right_nav">
+						<li><a href="#for_partners">Партнерам</a></li>
+						<li><a href="#requirement">Вимоги</a></li>
+						<li><a href="#registering">Реєстрація</a></li>
+					</ul>
+				</span>
+			</div>
+			<div class="logo_nav">
+				<img src="img/logo.svg">
+			</div>
+		</nav>		
+		<dic class="container flex-right">
+			<form action="#" method="post" id="sendform" enctype="multipart/form-data">
+		  <fieldset>
+		    <h3>ЗАРЕЄСТРУВАТИСЯ</h3>
+		    <p>
+		      <input name="name" value="" size="40" type="text" class="required" placeholder="Ім'я:" />
+		    </p>
+		    <p>
+		      <input name="sername" value="" size="40" type="text" class="required" placeholder="Прізвище:" />
+		    </p>
+
+		    <p> 
+		      <input name="Otcestvo" value="" size="40" class="required" type="text" placeholder="По Батькові:" />
+		    </p>
+
+		     <p> 
+		      <input name="car" value="" size="40" class="required" type="text" placeholder="Марка автомобіля:" />
+		    </p>
+		     <p> 
+		      <input name="car" value="" size="40" class="required" type="text" placeholder="Номер автомобіля:" />
+		    </p>  
+
+		    <p>
+		    	<span class="span-container-input">
+			    	<span>
+			    		<input id='browse1' type='file' name="file1" value="1" size="40" style='width:0px'>
+							<button id='browser1' onclick='browse1.click()'>
+							    Фото 1
+							</button> 
+			    	</span>
+					<span>
+						<input id='browse2' type='file' name="file2" value="1" size="40" style='width:0px'>
+							<button id='browser2' onclick='browse2.click()'>
+							    Фото 2
+							</button> 
+					</span>	
+				</span>				
+		    </p>
+		    <input class="send_button" value="Відправити" name="sendMail" type="submit" />
+		  </fieldset>
+		</form>
+		</dic>
+		<div class="circle"></div>
+	</header>
+	<section id="about" class="about">		
+		<span class="container">
+			<h1>Про компанію</h1>
+			<div class="about_description">
+				<h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+			</div>
+			<div class="images_section_about">
+				<img src="img/img_about_1.jpg">
+				<img src="img/img_about_2.jpg">
+				<img src="img/img_about_2.jpg">
+			</div>
+		</span>
+	</section>
+	<section id="price" class="price">
+		<span class="container">
+			<h1 class="color_pink">Ціни</h1>
+			<h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			</h5>
+		</span>
+	</section>
+	<section id="avtopark" class="avtopark">
+		<span class="container">
+			<h1 class="color_pink">Наш автопарк</h1>
+			<div class="cars_all">
+				<img src="img/cars_all_1.jpg">
+				<img src="img/cars_all_2.jpg">
+				<img src="img/cars_all_3.jpg">
+				<img src="img/cars_all_1.jpg">
+				<img src="img/cars_all_2.jpg">
+				<img src="img/cars_all_3.jpg">
+			</div>
+		</span>
+	</section>
+	<section id="for_partners" class="for_partners">
+		<span class="container">
+			<h1 class="color_pink">Партнерам</h1>
+			<div class="content_for_partners">
+				<span class="container-image">
+					<img src="img/partner_img.jpg">
+				</span>
+				<h6>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</h6>
+			</div>
+		</span>
+	</section>
+	<section id="requirement" class="requirement ">
+		<span class="container">
+			<h1 class="color_pink">Наші вимоги</h1>
+			<div class="content_for_requirement">
+				<span class="container-image">
+					<img src="img/requirement_img.jpg">
+				</span>
+				<h6>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</h6>
+			</div>
+		</span>
+	</section>
+	<section id="registering" class="registering ">
+		<span class="container">
+			<h1 class="color_pink">Реєструватися</h1>
+			<form action="#" method="post" id="sendform" enctype="multipart/form-data">
+		  <fieldset class="fieldset">
+		  	<p class="zapolnit_description">Заповніть форму</p>
+		    <p>
+		      <input name="name" value="" size="40" type="text" class="required" placeholder="Ім'я:" />
+		    </p>
+		    <p>
+		      <input name="sername" value="" size="40" type="text" class="required" placeholder="Прізвище:" />
+		    </p>
+
+		    <p> 
+		      <input name="Otcestvo" value="" size="40" class="required" type="text" placeholder="По Батькові:" />
+		    </p>
+
+		     <p> 
+		      <input name="car" value="" size="40" class="required" type="text" placeholder="Марка автомобіля:" />
+		    </p>
+		     <p> 
+		      <input name="car" value="" size="40" class="required" type="text" placeholder="Номер автомобіля:" />
+		    </p> 
+		    <p>
+		    	<span class="span-container-input">
+		    		<p class="photo_description">Завантажте фотографії машини</p>
+			    	<span>
+			    		<input id='browse1' type='file' name="file1" value="1" size="40" style='width:0px'>
+							<button id='browser1' onclick='browse1.click()'>
+							    Фото 1
+							</button> 
+			    	</span>
+					<span>
+						<input id='browse2' type='file' name="file2" value="1" size="40" style='width:0px'>
+							<button id='browser2' onclick='browse2.click()'>
+							    Фото 2
+							</button> 
+					</span>	
+				</span>				
+		    </p>
+		    <input class="send_button" value="Відправити" name="sendMail" type="submit" />
+		  </fieldset>
+		</form>
+		</span>
+	</section>
+	<footer>
+		<p>&copy; 2019 Tak-Si.in.ua<p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#left_nav").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#light_nav").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#button_up").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+});
+</script>
+<script type="text/javascript">
+    $('.mobile_menu_button img').click(function() {
+        $('.container>span').show(400);
+        $('.cencel_mobile_menu_button img').show(400);
+        $('.mobile_menu_button img').hide(400);    
+    });
+</script>
+<script type="text/javascript">
+    $('.cencel_mobile_menu_button img').click(function() {
+        $('.container>span').hide(400);
+        $('.cencel_mobile_menu_button img').hide(400);
+        $('.mobile_menu_button img').show(400);  
+    });
+</script>
+<div id="button_up" class="button_up">
+	<a href="#upp_page"><img src="img/up_button.svg"></a>
+</div>
+</body>
+</html>
